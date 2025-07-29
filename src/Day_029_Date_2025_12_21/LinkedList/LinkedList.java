@@ -14,6 +14,11 @@ public class LinkedList {
 
     public void addLast(int data){
         Node newNode = new Node(data);
+        if(tail==null){
+            tail = newNode;
+            size++;
+            return;
+        }
         tail.next = newNode;
         tail = newNode;
         size++;
@@ -26,6 +31,16 @@ public class LinkedList {
         size++;
     }
 
+    public void deleteLast(){
+        Node temp = head;
+        //while
+    }
+    public void deleteFirst(){
+        if(head!=null){
+            head = head.next;
+            size--;
+        }
+    }
     public int find(int data){
         Node temp = head;
         int index = 0;
