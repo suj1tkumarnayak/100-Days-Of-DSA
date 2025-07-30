@@ -1,5 +1,8 @@
 package Day_029_Date_2025_12_21.LinkedList;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LinkedList {
     Node head;
     Node tail;
@@ -34,6 +37,8 @@ public class LinkedList {
     public void deleteLast(){
         Node temp = head;
         //while
+        List<Integer> list = new ArrayList<>();
+        int[] arr = list.stream().mapToInt(Integer::intValue).toArray();
     }
     public void deleteFirst(){
         if(head!=null){
