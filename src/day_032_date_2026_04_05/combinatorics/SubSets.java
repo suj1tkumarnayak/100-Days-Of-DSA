@@ -1,2 +1,7 @@
-package day_032_date_2026_04_05.combinatorics;public class SubSets {
+package day_032_date_2026_04_05.combinatorics;
+
+public class SubSets {
+    public static void main(String[] args) {
+
+    }
 }
