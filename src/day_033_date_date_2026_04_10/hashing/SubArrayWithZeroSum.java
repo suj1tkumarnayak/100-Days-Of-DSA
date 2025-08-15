@@ -1,2 +1,7 @@
-package day_033_date_date_2026_04_10.hashing;public class SubArrayWithZeroSum {
+package day_033_date_date_2026_04_10.hashing;
+
+public class SubArrayWithZeroSum {
+    public static void main(String[] args) {
+        
+    }
 }
