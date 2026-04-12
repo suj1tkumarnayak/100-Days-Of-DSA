@@ -1,4 +1,4 @@
-package day_033_date_date_2026_04_10.slidingwindow;
+package day_033_date_2026_04_10.slidingwindow;
 
 public class CountOccurencesOfAnagrams {
     public static void main(String[] args) {

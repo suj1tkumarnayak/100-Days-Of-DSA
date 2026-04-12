@@ -1,4 +1,4 @@
-package day_033_date_date_2026_04_10.hashing;
+package day_033_date_2026_04_10.hashing;
 
 import java.util.HashSet;
 import java.util.Set;

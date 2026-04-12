@@ -1,4 +1,4 @@
-package day_033_date_date_2026_04_10.hashing;
+package day_033_date_2026_04_10.hashing;
 
 //https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1
 
