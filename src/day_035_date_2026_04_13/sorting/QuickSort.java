@@ -18,5 +18,6 @@ public class QuickSort {
         while (low<high){
             
         }
+        return 1;
     }
 }
