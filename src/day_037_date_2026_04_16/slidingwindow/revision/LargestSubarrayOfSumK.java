@@ -9,7 +9,7 @@ public class LargestSubarrayOfSumK {
         int k = 15;
         System.out.println(longestSubarray(arr, k));
     }
-    
+
     public static int longestSubarray(int[] arr, int k) {
         int max = 0, sum = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
