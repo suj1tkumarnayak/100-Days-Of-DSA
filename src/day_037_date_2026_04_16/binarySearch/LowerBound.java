@@ -1,6 +1,6 @@
 package day_037_date_2026_04_16.binarySearch;
 
-public class LowBound {
+public class LowerBound {
     public static void main(String[] args) {
         int[] nums = { 0,1,2,2,2,3 };
         System.out.println(lowerBound(nums, 2));
