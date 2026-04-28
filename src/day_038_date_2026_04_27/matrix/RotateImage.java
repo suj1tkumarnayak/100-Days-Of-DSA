@@ -1,4 +1,4 @@
-package day_038_date_2026_04_27;
+package day_038_date_2026_04_27.matrix;
 
 import java.util.Arrays;
 
