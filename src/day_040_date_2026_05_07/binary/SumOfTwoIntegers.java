@@ -6,6 +6,19 @@ public class SumOfTwoIntegers {
         System.out.println(toBinary(2));
         System.out.println(toBinary(1&2));
         //System.out.println(toBinary(5));
+
+    }
+    public int getSum(int a, int b) {
+        int res = 0;
+        int carry = 0;
+
+        for (int bit = 0; bit < 32; bit++) {
+            int add = (((a>>1)&1)^((b>>1)&1))^carry;
+            carry = (((a>>1)&1)&((b>>1)&1))&carry;
+            //res|=()
+        }
+
+        return res;
     }
     public static String toBinary(int n) {
         if (n == 0) return "0";
