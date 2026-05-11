@@ -45,7 +45,7 @@ public class LemonadeChange {
         return true;
     }
 
-    public static boolean lemonadeChange(int[] bills) {
+    private static boolean lemonadeChange(int[] bills) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int sum = 0;
         for(int num : bills){

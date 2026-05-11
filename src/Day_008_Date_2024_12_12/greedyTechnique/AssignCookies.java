@@ -9,7 +9,7 @@ public class AssignCookies {
 
         System.out.println(findContentChildren(g,s));
     }
-    public static int findContentChildren(int[] g, int[] s) {
+    private static int findContentChildren(int[] g, int[] s) {
         int count = 0;
 
         Arrays.sort(g);
