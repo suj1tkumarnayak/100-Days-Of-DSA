@@ -1,4 +1,4 @@
-package day_046_date_2026_05_15;
+package day_046_date_2026_05_15.twopointers;
 
 public class SearchInRotatedSortArray {
     public static void main(String[] args) {

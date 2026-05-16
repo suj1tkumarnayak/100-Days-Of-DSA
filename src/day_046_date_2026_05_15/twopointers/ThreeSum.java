@@ -14,11 +14,7 @@ public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
 
-        return res;
-    }
-    public static List<Integer> twoSum(int[] nums, int target, int i){
-        List<Integer> res = new ArrayList<>();
-        //Hash
+
         return res;
     }
 }
