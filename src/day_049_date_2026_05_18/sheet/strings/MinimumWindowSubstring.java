@@ -7,6 +7,6 @@ public class MinimumWindowSubstring {
         System.out.println(minWindow(s, t));
     }
     public static String minWindow(String s, String t) {
-        
+        return "";
     }
 }
