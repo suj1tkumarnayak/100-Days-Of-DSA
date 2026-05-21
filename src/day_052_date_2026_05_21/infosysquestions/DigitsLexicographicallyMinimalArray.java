@@ -1,2 +1,7 @@
-package day_052_date_2026_05_21.infosysquestions;public class DigitsLexicographicallyMinimalArray {
+package day_052_date_2026_05_21.infosysquestions;
+
+public class DigitsLexicographicallyMinimalArray {
+    public static void main(String[] args) {
+
+    }
 }
