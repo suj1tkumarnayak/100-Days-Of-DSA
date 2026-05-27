@@ -1,0 +1,2 @@
+package day_060_date_2026_05_29.dailyleetcode;public class MinimumElementAfterReplacementWithDigitSum {
+}
