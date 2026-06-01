@@ -1,0 +1,2 @@
+package day_064_date_2026_06_02.dailyleetcode;public class EarliestFinishTimeForLandAndWaterRidesI {
+}
