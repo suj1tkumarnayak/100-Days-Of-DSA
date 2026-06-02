@@ -1,4 +1,4 @@
-package day_067_date_2026_06_06.arrays;
+package day_067_date_2026_06_06.dailyleetcode;
 
 import java.util.Arrays;
 
