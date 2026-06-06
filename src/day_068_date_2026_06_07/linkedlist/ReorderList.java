@@ -13,8 +13,46 @@ public class ReorderList {
 
     // Write your reorder logic inside this method
     public void reorderList(ListNode head) {
-        // TODO: Your code goes here
 
+        if(head==null || head.next==null){
+            return;
+        }
+
+        ListNode slow = head;
+        ListNode fast = head;
+        // find the middle point
+        while(fast.next!=null && fast.next.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        // reverse the linked list after middle point
+        ListNode curr = slow.next;
+        slow.next = null;
+
+        ListNode prev = null;
+
+        while (curr!=null){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        // merge the the first part and second part
+        ListNode first = head;
+        ListNode second = prev;
+
+        while (second!=null){
+            ListNode temp1 = first.next;
+            ListNode temp2 = second.next;
+
+            first.next = second;
+            second.next = temp1;
+
+            first = temp1;
+            second = temp2;
+        }
     }
 
     // Helper method to print the linked list
