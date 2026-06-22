@@ -1,2 +1,7 @@
-package day_079_date_2026_06_23.stoneycodes.arrays;public class TwoSum {
+package day_079_date_2026_06_23.stoneycodes.arrays;
+
+public class TwoSum {
+    public static void main(String[] args) {
+        
+    }
 }

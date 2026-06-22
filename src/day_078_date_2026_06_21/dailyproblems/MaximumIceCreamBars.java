@@ -7,6 +7,15 @@ public class MaximumIceCreamBars {
         System.out.println();
     }
     public static int maxIceCream(int[] costs, int coins) {
-        return 0;
+        int[] freq = new int[coins+1];
+
+        for (int cost : costs) {
+            freq[cost]++;
+        }
+        int count = 0;
+
+
+
+        return count;
     }
 }
