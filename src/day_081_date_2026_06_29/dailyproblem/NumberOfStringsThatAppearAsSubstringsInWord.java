@@ -1,0 +1,2 @@
+package day_081_date_2026_06_29.dailyproblem;public class NumberOfStringsThatAppearAsSubstringsInWord {
+}
