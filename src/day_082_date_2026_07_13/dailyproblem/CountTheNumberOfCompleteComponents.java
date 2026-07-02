@@ -1,6 +1,4 @@
-package day_082_date_2026_07_11.dailyproblem;
-
-import java.util.*;
+package day_082_date_2026_07_13.dailyproblem;
 
 public class CountTheNumberOfCompleteComponents {
 
