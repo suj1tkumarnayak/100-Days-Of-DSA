@@ -1,4 +1,4 @@
-package day_082_date_2026_07_13.dailyproblem;
+package day_082_date_2026_07_17.dailyproblem;
 
 public class CountTheNumberOfCompleteComponents {
 

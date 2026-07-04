@@ -1,4 +1,4 @@
-package day_082_date_2026_07_13.infosys_50_questions.arrays;
+package day_082_date_2026_07_17.infosys_50_questions.arrays;
 
 public class MaximumSubarraySum {
     public static void main(String[] args) {
